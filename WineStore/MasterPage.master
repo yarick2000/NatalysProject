@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home</title>
+    <link href="myStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="scriptContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="top">
+            <a class="logo" href="Home.aspx">&nbsp;</a>
+            <div class="title">Nataly's Wine Store</div>
+            <div class="basket">
+                <!-- TODO: use dynamic value -->
+                <span>10</span>
+            </div>
+        </div>
+        <div class="backgroundGradient">
+            <nav>
+                <ul>
+                    <li><a href="/Home.aspx">Home</a></li>
+                    <li><a href="/Store.aspx">All store</a></li>                    
+                    <li><a href="/Cart.aspx">My Cart</a></li>
+                    <li><a href="/Order.aspx">Order</a></li>
+                    <li><a href="/FindUs.aspx">Find Us</a></li>
+                    <li><a href="/Checkout.aspx">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    
+     <div class="welcome">            
+         <div class="welcomeImage"></div>           
+         <div class="special">                
+               <div class="specialHeaderImg"></div>
+               <div class="specialWineImg"></div>
+               <div class="specialDiv">30% off on Wine1 <br />all week!</div>                
+         </div>
+     </div>
+    </header>
+
+    <!-- Header End -->
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    <!-- Footer Start -->
+    <footer>
+        <p>Our address is </p><address>85 Yonge St, 123 Toronto</address>
+        <p>You may call us @ </p><a href="tel:+61 2 9437 6688">2 9437 6688</a>
+    </footer>
+    <!--Footer End-->
+</body>
+</html>

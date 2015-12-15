@@ -1,0 +1,363 @@
+﻿@import url('http://fonts.googleapis.com/css?family=Lora|Lobster+Two|Tangerine|Great+Vibes');
+body {
+    width:100%;
+    font-family: "Lora";   
+    margin:0px;
+    padding:0px;
+}
+
+.backgroundGradient{
+    background:linear-gradient(to right,#B22222,#DC143C,#F08080,#FFF0F5, #FFF8DC );
+    height:50px;    
+    margin-left:10px;
+    width:98%;
+}
+
+.commonHeader {     
+    color:white;
+    font-size:36px;
+    font-family:Lobster Two;
+    padding-left:5px;
+    background:linear-gradient(to right,#B22222,#DC143C,#F08080,#FFF0F5, #FFF8DC );
+    height:50px;   
+    margin-left:10px;
+    width:98%;
+}
+
+/*Master Page*/
+
+header {  
+    margin:10px;      
+}
+
+header .top {
+    height:83px;
+    line-height:73px;
+    width:100%;
+    text-align:center;
+    margin:10px 0px 0px 20px;
+}
+
+header .top .logo {
+    background-image:url(images/wineLogo.jpg);   
+    height:73px;
+    width: 165px;
+    position:relative;
+    left:0;
+    float:left;
+}
+
+header .top .basket {
+    background-image:url(images/shopping-basket-icon.png);
+    width:73px;
+    height:73px;
+    position:relative;
+    right:0;
+    float:right;
+    margin-right:30px;
+}
+
+header .top .title {
+    vertical-align:middle;
+    display:inline-block;
+    color:crimson;
+    font-family:"Great Vibes";
+    text-shadow:5px 5px 5px #F08080;
+    font-weight:900;
+    font-size:83px; 
+}
+
+header nav ul li
+ {    
+    display:inline-block; 
+    padding:10px 20px;               
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+header nav ul li:hover {
+    background-color: #DAA520;
+   
+}
+
+header nav ul li a
+   {
+    text-decoration:none;
+    color:white;      
+   }
+
+header .welcome {   
+    height:415px;
+    width:100%;
+}
+
+header .welcomeImage {
+    background-image:url(images/wineHeaderImage2.jpg);
+    float:left;
+    width:660px;
+    height:411px;
+    margin:0px 200px;
+}
+
+header .special {  
+    float:left;
+    width:300px;
+    height:411px;    
+    margin-right:90px;
+}
+
+header .specialHeaderImg {    
+    background-image:url(images/specials.jpg);
+    width:300px;
+    height:166px;     
+}
+
+header .specialWineImg {
+    background-image:url(images/wineExamples.jpg);
+    width:74px;
+    height:220px;
+    padding:10px 0px 0px 5px;    
+    float:left;
+    margin-top:10px;
+}
+
+header .specialDiv {
+    font-family:"Lobster Two";
+    font-size:26px; 
+    color:red;      
+    font-weight:900;
+    transform:rotate(15deg);
+    padding:80px 24px 0px 24px;
+    text-align:center;
+}
+
+footer {
+    clear:both;      
+    width:100%;
+    text-align:center;    
+    margin-top:55px;
+    background:linear-gradient(to right,#B22222,#DC143C,#F08080,#FFF0F5, #FFF8DC );
+}
+
+.smallText {
+    font-size:12px;
+}
+
+/*Home Content Page*/
+
+.homePage {
+    width:100%;
+    height:400px;    
+}
+
+.homePage h1 {
+    color: #B22222 ;
+    font-family:Lobster Two;
+    font-weight:600;
+    font-size:36px;    
+    padding:5px;
+    font-style:italic;
+}
+
+.homePage .welcomeText {
+    float:left;
+    width: 70%;
+    font-size:16px;
+    margin:5px 10px;
+    padding:5px;  
+    column-count: 3; 
+   -webkit-column-count: 3; 
+   -moz-column-count: 3;     
+}
+
+.homePage p:last-child {
+    clear:both;
+    margin:10px;
+    font-style:italic;
+}
+
+.homePage p:last-child mark {
+    background-color:greenyellow;
+}
+
+.events{
+    width:25%;    
+    float:left;
+    
+}
+
+.evetns header {
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.events ul li {
+    list-style-type:none;
+}
+
+.bestsellers header{
+    color:white;
+    font-size:36px;
+    font-family:Lobster Two;
+    padding-left:5px;
+}
+
+.bestsellersGroup header{
+    font-family:Great Vibes;
+    font-size:40px;
+    font-weight:600;
+    color:#990000;
+    text-align:center;
+    width:75%;
+}
+
+.bestsellersGroup div {
+    width: 70%;
+    margin-left:100px;   
+    height:420px;
+}    
+
+.bestsellersGroup article{
+    width:25%;
+    float:left;    
+    text-align:center;
+    margin:25px 30px 5px 30px;
+    padding-top:10px;
+}
+
+.bestsellersGroup article header {
+    font-family:'Times New Roman', Times, serif;
+    font-size:24px;
+    font-weight:300;
+    font-style:italic;
+}
+
+.dragableToCart {
+    background-image:url(images/bestImg.jpg);
+    height:176px;
+    width:50px;
+    margin:auto;
+}
+
+.shoppingCart {
+    margin-top:150px;
+    float:right;
+    width:20%;
+    height:auto;
+}
+
+.shoppingCart header {
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700;
+    font-style:italic;
+}
+
+/*Store Content Page*/
+.wineInStore {
+    margin:30px 0px;
+    width:70%;
+    height:auto;    
+}
+
+.wineImgHead {
+    width:30%;
+    height:500px;
+    float:left;    
+
+}
+
+.typeOfWineImage{    
+    width:100px;
+    height:350px;    
+    margin:24px 0px 0px 84px;
+}
+
+.typeOfWineDesc {
+    float:left;       
+    font-size:16px;
+    font-family:Arial;   
+    width:60%;    
+    padding:30px;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.wineInStore header {
+    text-align:center;
+    height:60px;
+    width:80%;
+    font-family:Constantia;
+    font-weight:bold;
+    font-style:italic;
+    font-size:26px;
+}
+
+.typeOfWinePrice {
+    color:forestgreen;
+    font-size:30px;
+    font-weight:600;
+}
+
+.nextWine {
+    clear:both;
+    margin-top:30px;
+}
+
+
+/*wineDetails Content Page*/
+
+.button{
+    background-color:green;
+    color:white;
+    text-align:center;
+}
+
+/*Order Content Page*/
+.order {
+    width:50%;
+    margin:auto;
+}
+
+/*Cart Content Page*/
+
+
+/*Checkout Content Page*/
+
+
+/*FindUs Content Page*/
+.geopositioning {
+    width:50%;
+    width:70%;
+    height:450px;
+    margin:auto;    
+}
+
+
+/*Wine Details Content Page*/
+
+.detailsImage {
+    float:left;
+    background-image:url("images/wineOfTheMonth.png");
+    width:280px;
+    height:424px;
+}
+
+.detailsDesc {
+    width:70%;
+}
+
+.detailsDesc p:last-child{
+    font-style:italic;
+    font-size:26px;
+    color:forestgreen;
+    font-weight:800;
+}
+
+
+
